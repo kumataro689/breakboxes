@@ -1,0 +1,43 @@
+@media (max-width: 480px;){
+  img{
+    width: 100%;
+  } 
+}
+.tophaikei1{
+  background-image: url("blue1.png");
+}
+.toumei1{
+  background:linear-gradient(to top, rgba(255, 255, 255, 0.678) 0%,rgba(0, 0, 0, 0.822) 100%);
+}
+
+
+.tophaikei{
+  background-image: url("blue1.png");
+}
+.toumei{
+  background:linear-gradient(to top, rgba(255, 255, 255, 0.678) 0%,rgba(0, 0, 0, 0.822) 100%);
+}
+
+.haikei{
+  background-image: url("四角模様.png");
+}
+
+/*
+  便利なコマンド
+  opacityでは、背景だけでなく子要素まで透過してしまいます
+  body {
+    background-image: url("四角模様.png");
+  }
+
+  background-image: url("四角模様.png");
+  background-repeat: no-repeat;　　　画像を繰り返さない
+  background-size: cover;　　　　　　全体表示させる
+  body {
+  background-image: url("https://www.sejuku.net/blog/wp-content/uploads/2018/05/shutterstock_609815726-1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;　　　　　　　　　　　　　　　　　　　　背景固定
+}
+
+  
+  
+  */

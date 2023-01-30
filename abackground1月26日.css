@@ -1,0 +1,58 @@
+
+main {
+    padding: 90px 20px;                         /* 余白指定 */
+    height: 896px;                              /* 高さ指定 */
+}
+.z-index_test {
+    background-color: rgba(255, 255, 255, 0.8); /* 背景色指定 */
+    z-index: 9999;                              /* 重なり順指定 */
+    text-align: center;                         /* 文字中央揃え */
+    position:  fixed;                           /* 位置指定 */
+    width: 100%;                                /* 幅指定 */
+    box-sizing:  border-box;                    /* 崩れ防止 */
+    border-bottom:  solid 1px #ccc;             /* 枠線指定 */
+}
+.z-index_test li {
+    display:  inline-block;                     /* インラインブロックにする */
+    padding: 20px;                              /* 余白指定 */
+}
+.z-index_test ul {
+    margin:  0;                                 /* デフォルトCSS打ち消し */
+    padding: 0;                                 /* デフォルトCSS打ち消し */
+}
+.z-index_test a {
+    color:  #000;                               /* 文字色指定 */
+    text-decoration:  none;                     /* デフォルトCSS打ち消し */
+}
+.dummy {
+    width: 32.3333%;                            /* 幅指定 */
+    background-color: #00BCD4;                  /* 背景色指定 */
+    display:  inline-block;                     /* インラインブロックにする */
+    margin-bottom:  10px;                       /* 要素の空き指定 */
+    height: 150px;                              /* 高さ指定 */
+    padding:  10px;                             /* 余白指定 */
+    box-sizing:  border-box;                    /* 崩れ防止 */
+}
+body {background-color: #4e4ed5;
+    opacity: 0.2;
+    background-image:  
+     linear-gradient(30deg, #9fa4ff 12%, transparent 12.5%, transparent 87%, #9fa4ff 87.5%, #9fa4ff),
+     linear-gradient(150deg, #9fa4ff 12%, transparent 12.5%, transparent 87%, #9fa4ff 87.5%, #9fa4ff), 
+     linear-gradient(30deg, #9fa4ff 12%, transparent 12.5%, transparent 87%, #9fa4ff 87.5%, #9fa4ff), 
+     linear-gradient(150deg, #9fa4ff 12%, transparent 12.5%, transparent 87%, #9fa4ff 87.5%, #9fa4ff), 
+     linear-gradient(60deg, #9fa4ff77 25%, transparent 25.5%, transparent 75%, #9fa4ff77 75%, #9fa4ff77), 
+     linear-gradient(60deg, #9fa4ff77 25%, transparent 25.5%, transparent 75%, #9fa4ff77 75%, #9fa4ff77);
+    background-size: 54px 95px;
+    background-position: 0 0, 0 0, 27px 47px, 27px 47px, 0 0, 27px 47px;
+    background-color:#FFF8;
+    background-blend-mode:lighten;
+    opacity: 0.1; /* 透明度0.0～1.0まで　background-imageにはOpacityが適用されません。*/
+    z-index: 0;                /* 重なり順指定 */
+    /* https://www.magicpattern.design/tools/css-backgrounds */
+}
+    /*
+    .gradient{
+        background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,1));
+        background-position: 0 0, 0 0, 27px 47px, 27px 47px, 0 0, 27px 47px;
+        
+    }
